@@ -1,0 +1,305 @@
+/************************Jobs*****************************************************************/
+.cardJob {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+/*
+.Jobtitle {
+    color: grey;
+    font-size: 18px;
+}
+
+.butJob {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+
+.butJob:hover, a:hover {
+    opacity: 0.7;
+}
+
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+/*****************************************************************************************/
+
+/*#navbar {*/
+   /*!*background-color: #fffdfe;*!*/
+    /*position: fixed;*/
+    /*top: -50px;*/
+    /*width: 100%;*/
+    /*display:block;*/
+    /*transition: top 0.3s;*/
+/*}*/
+
+/*#navbar a {*/
+    /*float: left;*/
+    /*display: block;*/
+    /*!*color: #fffdfe;*!*/
+    /*text-align: center;*/
+    /*padding: 15px;*/
+    /*text-decoration: none;*/
+    /*font-size: 17px;*/
+    /*!*background-color: #ffffff;*!*/
+/*}*/
+
+/*#navbar a:hover {*/
+
+    /*!*color: black;*!*/
+/*}*/
+/****************NetWork*************************************************************************/
+.Zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.jump:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+
+
+#Messages:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+
+}
+#Notification:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+
+}
+#Network:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+
+}
+#Job:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+
+}
+#Home:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+.nav a:hover {
+    color: black;
+
+
+}
+#brr.dropdown-menu > li > a {
+    background-color:transparent;
+    color:white;
+}
+#brr.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color:transparent;
+    color:black;
+}
+.nav a.active {
+    border-bottom: 3px solid #000000;
+    background-color: black;
+    color: black;
+}
+.nav > li > a:hover{
+    color: #000000;
+
+
+}
+.nav > li > a{
+     color: white;
+     background-color: transparent;
+
+ }
+.nav > li > active{
+    color: white;!important;
+    background-color: transparent;
+
+}
+.navbar-nav >.active{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+
+}
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: transparent;
+}
+.navbar-nav>.open>a{
+    background:transparent;
+}
+.navbar-nav>.open>a:hover{
+    background:transparent;
+}
+.navbar-nav > .active > a,
+ .navbar-nav > .active > a:hover,
+ .navbar-nav > .active > a:focus {
+    color: #000;
+    background:transparent;
+}
+.icon-bar{
+    background-color: white;
+}
+#pro{
+    background-image: url("http://www.interload.co.il/upload/4905725.PNG");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: top ;
+}
+
+/*****************************************************************************************/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color:black;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+body {
+    margin-top: -100px;
+    padding-top: 100px;
+
+}
+.btn:hover {
+    box-shadow: 1px 2px 5px #000000;
+}
+
+
+.slow{
+    padding: 0 18px;
+
+    max-height: 0;
+
+    transition: max-height 1.2s ease-out;
+}
+
+.well {
+    box-shadow: 1px 2px 5px #000000;;
+}
+.shdow{
+    box-shadow: 1px 2px 5px #000000;;
+}
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/*//---------------------------------------------------*/
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+
+
